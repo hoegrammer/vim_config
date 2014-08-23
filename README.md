@@ -10,10 +10,10 @@ I find the toggling useful when copying and pasting using the mouse (numbers off
 
 ## Global install (for all users; requires root privieges)
 
-Copy vimrc.local, the autoload directory (as a directory, with its contents) and the plugin directory (ditto) into /etc/vim.
+Copy `vimrc.local`, the `autoload` directory (as a directory, with its contents) and the `plugin` directory (ditto) into `/etc/vim`.
 
 ## Home directory install (for one user)
 
-Copy vimrc.local into your home/you and rename it `.vimrc`. Or just append its contents to an existing `.vimrc`.
+Copy `vimrc.local` into `home/you` and rename it `.vimrc`. Or just append its contents to an existing `.vimrc`.
 
-Copy the the autoload directory (as a directory, with its contents) and the plugin directory (ditto) into /home/you/.vim.
+Copy the the `autoload` directory (as a directory, with its contents) and the `plugin` directory (ditto) into `/home/you/.vim`.
