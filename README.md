@@ -6,14 +6,6 @@
 
 I find the toggling useful when copying and pasting using the mouse (numbers off to copy, smartindent off to paste).
 
-# Where to put the files
+## How to install (globally for all users)
 
-## Global install (for all users; requires root privieges)
-
-Copy `vimrc.local`, the `autoload` directory (as a directory, with its contents) and the `plugin` directory (ditto) into `/etc/vim`.
-
-## Home directory install (for one user)
-
-Copy `vimrc.local` into `home/you` and rename it `.vimrc`. Or just append its contents to an existing `.vimrc`.
-
-Copy the the `autoload` directory (as a directory, with its contents) and the `plugin` directory (ditto) into `/home/you/.vim`.
+Copy the entire contents of the repo into `/etc/vim`. 
