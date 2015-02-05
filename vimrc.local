@@ -3,9 +3,12 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set number
+syntax on
 
 map <C-n> :set nonumber!<CR>:set number?<CR>
 map <C-i> :set nosmartindent!<CR>:set smartindent?<CR>
+map <C-t> :set tabstop=2<CR>:set shiftwidth=2<CR>
+map <C-f> :set tabstop=4<CR>:set shiftwidth=4<CR>
 
 source /etc/vim/autoload/pathogen.vim
 call pathogen#infect()

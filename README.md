@@ -11,5 +11,4 @@ I find the toggling useful when copying and pasting using the mouse (numbers off
 
 ## How to install (globally for all users)
 
-npm install -g
 Copy the entire contents of the repo into `/etc/vim`. 
